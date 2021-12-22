@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :aliases {:hello {:exec-fn hello/run}
+           :test {:extra-deps {lambdaisland/kaocha {:mvn/version "1.60.972"}}
+                  :exec-fn kaocha.runner/exec-fn
+                  :exec-args {}}
+           :env/test {:extra-paths ["test"]}}}
