@@ -4,4 +4,4 @@
 (defn run
   "Hello World"
   [& _]
-  (println "Hello Clojure Sandbox"))
+  (println "Hello Clojure !!!"))
